@@ -24,7 +24,7 @@ To run the challenge on your machine, you will need to have **Docker** and **Doc
 
 1.  **Clone the repository** (or download the files):
     ```bash
-    git clone 
+    git clone https://github.com/NicolasPauferro/Bangu-Shopping-CTF.git
     cd bangushoppingctf
     ```
 
