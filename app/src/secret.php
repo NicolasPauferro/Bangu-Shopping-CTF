@@ -1,0 +1,4 @@
+<?php
+$secret = "EDSONMATEMATICOLANOYOUTUBEPROCURALAAAAAAAAAAA";
+return $secret;
+?>
