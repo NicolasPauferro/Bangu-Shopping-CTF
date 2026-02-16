@@ -1,47 +1,47 @@
 # 🛍️ Bangu Shopping CTF
 
-Bem-vindo ao **Bangu Shopping CTF**, um desafio de segurança focado em aplicações web estudando vulnerabilidades clássicas em PHP. Este projeto simula o sistema interno de um shopping real (com um toque de humor) onde você deve explorar falhas para obter as bandeiras (flags).
+Welcome to **Bangu Shopping CTF**, a web application security challenge focused on classic PHP vulnerabilities. This project simulates the internal system of a real shopping mall (with a touch of humor) where you must explore flaws to obtain the flags.
 
-## 📝 Descrição
+## 📝 Description
 
-O sistema possui as seguintes funcionalidades:
-- **Página Inicial**: Listagem de eventos e filmes em cartaz.
-- **Busca**: Funcionalidade de pesquisa de eventos.
-- **Newsletter**: Sistema de inscrição para novidades.
-- **Login**: Área restrita para usuários e administradores.
-- **Dashboard**: Painel administrativo para gerenciamento de usuários e visualização de métricas.
+The system includes the following features:
+- **Home Page**: Listing of events and movies currently showing.
+- **Search**: Event search functionality.
+- **Newsletter**: Subscription system for news.
+- **Login**: Restricted area for users and administrators.
+- **Dashboard**: Administrative panel for user management and metric visualization.
 
-## 🚀 Tecnologias Utilizadas
+## 🚀 Technologies Used
 
-- **Front-end**: HTML5, CSS3 (Vanilla) com design "Bangu-style".
+- **Front-end**: HTML5, CSS3 (Vanilla) with "Bangu-style" design.
 - **Back-end**: PHP 8.2.
-- **Banco de Dados**: PostgreSQL 18.
-- **Containerização**: Docker e Docker Compose.
+- **Database**: PostgreSQL 18.
+- **Containerization**: Docker and Docker Compose.
 
-## 🛠️ Como subir o projeto
+## 🛠️ How to run the project
 
-Para rodar o desafio na sua máquina, você precisará ter o **Docker** e o **Docker Compose** instalados.
+To run the challenge on your machine, you will need to have **Docker** and **Docker Compose** installed.
 
-1.  **Clone o repositório** (ou baixe os arquivos):
+1.  **Clone the repository** (or download the files):
     ```bash
-    git clone <url-do-repositorio>
+    git clone 
     cd bangushoppingctf
     ```
 
-2.  **Inicie os containers**:
+2.  **Start the containers**:
     ```bash
     docker-compose up -d --build
     ```
 
-3.  **Acesse a aplicação**:
-    Abra o seu navegador e acesse: `http://localhost:8080`
+3.  **Access the application**:
+    Open your browser and go to: `http://localhost:8080`
 
-## 📂 Estrutura do Projeto
+## 📂 Project Structure
 
-- `app/public/`: Contém os arquivos PHP acessíveis pelo servidor web (`index.php`, `login.php`, `dashboard.php`).
-- `app/src/`: Lógica de back-end, conexão com o banco e verificação de sessões.
-- `db/`: Script SQL para inicialização do banco de dados PostgreSQL.
-- `docker-compose.yml`: Orquestração dos serviços de aplicação e banco de dados.
+- `app/public/`: Contains the PHP files accessible by the web server (`index.php`, `login.php`, `dashboard.php`).
+- `app/src/`: Back-end logic, database connection, and session verification.
+- `db/`: SQL script for initializing the PostgreSQL database.
+- `docker-compose.yml`: Orchestration of application and database services.
 
 
-*Este projeto foi criado para fins educacionais e estudos de CTF.*
+*This project was created for educational purposes and CTF training.*
